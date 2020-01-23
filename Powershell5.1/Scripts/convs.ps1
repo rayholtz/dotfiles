@@ -3,7 +3,7 @@ param (
     [switch]$discon =  $false
 )
 
-$server = "oaevc001.am.omron.net"
+$server = ""
 
 if ($discon) {
     try {
@@ -24,5 +24,5 @@ if ($global:defaultviserver) {
 }
 else {
     #NOT Connected
-    connect-viserver -Server $server -credential (Get-Credential -Message "am.omron.net domain credentials" -UserName "am.omron.net\rayh.admin")
+    connect-viserver -Server $server -credential (Get-Credential -Message " domain credentials" -UserName "")
 }
