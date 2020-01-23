@@ -1,1 +1,1 @@
-start-process "C:\Users\Ray.Holtz\My Documents\MyMMCs\DomainGoodness.msc" -credential (Get-Credential -Message "am.omron.net domain credentials" -UserName "am.omron.net\rayh.admin")
+start-process "C:\Users\Ray.Holtz\My Documents\MyMMCs\DomainGoodness.msc" -credential (Get-Credential -Message " domain credentials" -UserName "")
