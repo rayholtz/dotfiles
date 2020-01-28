@@ -1,0 +1,16 @@
+// Place your key bindings in this file to override the defaultsauto[]
+// Place this file in $env:APPDATA\Code\User\keybindings.json
+[
+    {
+        "key": "ctrl+k",
+        "command": "workbench.action.terminal.focus"
+    },
+    {
+        "key": "ctrl+i",
+        "command": "workbench.action.focusActiveEditorGroup"
+    },
+    // Toggle between terminal and editor focus
+    { "key": "ctrl+`", "command": "workbench.action.terminal.focus"},
+    { "key": "ctrl+`", "command": "workbench.action.focusActiveEditorGroup", "when": "terminalFocus"}
+
+]
