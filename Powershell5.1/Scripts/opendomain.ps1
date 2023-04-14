@@ -1,1 +1,1 @@
-start-process "C:\Users\Ray.Holtz\My Documents\MyMMCs\DomainGoodness.msc" -credential (Get-Credential -Message " domain credentials" -UserName "")
+start-process "C:\Users\Ray.Holtz\My Documents\MyMMCs\DomainGoodness.msc" -credential (Get-Credential -Message "aecia.net domain credentials" -UserName "aecia.net\rayh.admin")
